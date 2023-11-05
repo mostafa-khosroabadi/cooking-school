@@ -1,0 +1,114 @@
+@import "reset.css";
+
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+body {
+    background: url(..//photos/empty-professional-restaurant-kitchen_1027428-1881.jpg) no-repeat fixed center;
+    background-size: cover;
+    font-family: "vazir-medium";
+}
+
+:root {
+    --wrapper-bgc: rgba(50, 53, 117, 0.8);
+    --button-bgc: #f0f0f0;
+    --button-color: #000;
+    --wrapper-border-color:rgba(255, 255, 255, 0.8);
+}
+.wrapper {
+    background-color: var(--wrapper-bgc);
+    width: 26rem;
+    height: 28rem;
+    margin: 8rem auto 8rem auto;
+    text-align: center;
+    padding: 3rem 2rem 3rem 2rem;
+    border: 2px solid var(--wrapper-border-color);
+    border-radius: .5rem;
+}
+.wrapper__img {
+    width: 10rem;
+    height: 10rem;
+    margin-top: -15rem;
+    border-radius: 100%;
+    border: 2px solid var(--wrapper-border-color);
+}
+.wrapper__desc {
+    color: #ffffff;
+    font-size: 1.3rem;
+    line-height: 3;
+    text-align: right;
+    margin-bottom: 2rem;
+}
+.acception {
+    border: none;
+    width: 22rem;
+    height: 3rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: var(--button-bgc);
+    padding: .8rem;
+}
+.acception__link {
+    color: var(--button-color);
+}
+.wrapper__down {
+    background-color: var(--wrapper-bgc);
+    margin: auto;
+    width: 26rem;
+    height: 26rem;
+    text-align: center;
+    padding: 0rem 2rem 1rem 2rem;
+    border: 2px solid var(--wrapper-border-color);
+    border-radius: .5rem;
+}
+.down__teaacher-img {
+    width: 10rem;
+    height: 10rem;
+    margin-top: -6.1rem;
+    border-radius: 100%;
+    border: 2px solid var(--wrapper-border-color);
+}
+.down__text {
+    color: #ffffff;
+}
+.down__title {
+    font-size: 2rem;
+    line-height: 1.4;
+}
+.down__span {
+    color: red;
+    font-size: 3.7rem;
+}
+.down__title-2 {
+
+}
+.down__par {
+    color: #FB8C00;
+    font-size: 1.6rem;
+}
+.down__par-2 {
+    color: #FB8C00;
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------
+
+            fonts
+
+-------------------------------*/
+
+@font-face {
+    font-family: vazir-medium;
+    src: url(../fonts/Vazir-Medium.woff);
+}
